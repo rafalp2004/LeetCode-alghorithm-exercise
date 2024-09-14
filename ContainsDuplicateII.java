@@ -3,12 +3,10 @@ import java.util.HashSet;
 public class ContainsDuplicateII {
     public static void main(String[] args) {
        System.out.println(containsNearbyDuplicate(new int[]{1, 2, 3, 1}, 3)); //true
-        System.out.println("2---------------------------------");
       System.out.println(containsNearbyDuplicate(new int[]{1, 2, 3, 1, 2, 3}, 2)); //false
-        System.out.println("3---------------------------------");
         System.out.println(containsNearbyDuplicate(new int[]{1,0,1,1}, 1)); //true
 
- 
+
     }
 //   My first slower solution
 //    public static boolean containsNearbyDuplicate(int[] nums, int k) {
